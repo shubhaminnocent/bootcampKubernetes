@@ -30,8 +30,8 @@ jobs:
           context: app/
           push: true
           tags: |
-            saiyam911/kubesimplify-demo:latest
-            saiyam911/kubesimplify-demo:sha-${{ env.sha_short }}
+            shubham81994/kubesimplify-demo:latest
+            shubham81994/kubesimplify-demo:sha-${{ env.sha_short }}
           labels: |
             org.opencontainers.image.source=${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
