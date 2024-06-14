@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
       - name: my-app
+<<<<<<< Updated upstream
         image: shubham81994/kubesimplify-demo:sha-94dac91
+=======
+        image: shubham81994/kubesimplify-demo:sha-6e890cc
+>>>>>>> Stashed changes
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
@@ -95,9 +99,9 @@ spec:
   issuerRef:
     name: production-app
     kind: ClusterIssuer
-  commonName: demo.kubesimplify.com
+  commonName: demo.4.152.16.75.nip.io
   dnsNames:
-  - demo.kubesimplify.com 
+  - demo.4.152.16.75.nip.io
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
