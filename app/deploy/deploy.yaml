@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: shubham81994/kubesimplify-demo:sha-bd5c5b7
+        image: shubham81994/kubesimplify-demo:sha-94dac91
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
@@ -109,7 +109,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: demo.4.152.16.75.nip.io
+  - host: demo.kubesimplify.com
     http:
       paths:
       - path: /
@@ -121,7 +121,7 @@ spec:
               number: 80
   tls:
   - hosts:
-    - demo.4.152.16.75.nip.io
+    - demo.kubesimplify.com
     secretName: app
 ---
 apiVersion: v1
