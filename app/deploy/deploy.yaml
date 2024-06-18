@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
       - name: my-app
+<<<<<<< Updated upstream
         image: shubham81994/cvc:sha-50c7637
+=======
+        image: shubham81994/goal-app:sha-4b9a30e
+>>>>>>> Stashed changes
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
