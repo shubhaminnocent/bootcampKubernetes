@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: shubham81994/kubernetes-production-goal:sha-6e831b3
+        image: shubham81994/cvc:sha-8377bcc
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
