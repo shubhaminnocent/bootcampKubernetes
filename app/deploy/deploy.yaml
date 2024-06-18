@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: shubham81994/kubesimplify-demo:sha-9d683e8
+        image: shubham81994/kubesimplify-demo:sha-b281afa
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
