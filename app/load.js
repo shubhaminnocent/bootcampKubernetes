@@ -7,7 +7,7 @@ export const options = {
   duration: '30s',
 };
 
-const BASE_URL = 'https://demo.kubesimplify.com'
+const BASE_URL = 'http://demo.4.152.16.75.nip.io'
 
 function demo() {
   const url = `${BASE_URL}`;
