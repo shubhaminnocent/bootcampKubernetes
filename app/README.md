@@ -1,4 +1,3 @@
-  `
 ## Install cloudnative PG
 ```
 kubectl apply --server-side -f \
