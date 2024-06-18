@@ -14,7 +14,11 @@ spec:
     spec:
       containers:
       - name: my-app
+<<<<<<< Updated upstream
         image: shubham81994/kubesimplify-demo:sha-fd7f8b0
+=======
+        image: shubham81994/kubesimplify-demo:sha-afa8c16
+>>>>>>> Stashed changes
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
