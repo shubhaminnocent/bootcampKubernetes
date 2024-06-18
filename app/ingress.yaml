@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: demo.my.com
+  - host: demo.4.152.16.75.nip.io
     http:
       paths:
       - path: /
@@ -20,5 +20,5 @@ spec:
               number: 80
   tls:
   - hosts:
-    - demo.my.com
+    - demo.4.152.16.75.nip.io
     secretName: app
