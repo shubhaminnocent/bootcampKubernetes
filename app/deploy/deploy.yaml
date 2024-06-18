@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-<<<<<<< Updated upstream
-        image: shubham81994/kubernetes-production-goal:sha-c0ff698
-=======
-        image: shubham81994/kubernetes-production-goal:sha-1a8c230
->>>>>>> Stashed changes
+        image: shubham81994/kubernetes-production-goal:sha-9b90800
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
