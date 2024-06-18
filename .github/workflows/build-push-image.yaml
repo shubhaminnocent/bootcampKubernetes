@@ -30,8 +30,8 @@ jobs:
           context: app/
           push: true
           tags: |
-            shubham81994/kubernetes-production-goal-app:latest
-            shubham81994/kubernetes-production-goal-app:sha-${{ env.sha_short }}
+            shubham81994/cvc:latest
+            shubham81994/cvc:sha-${{ env.sha_short }}
           labels: |
             org.opencontainers.image.source=${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
